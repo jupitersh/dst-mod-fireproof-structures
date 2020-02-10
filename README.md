@@ -12,7 +12,12 @@ It's better if you combine the mod [Invincible Structures](https://steamcommunit
 
 ## Changelog
 
-**List of tweaks I made for version 1.1**
+**Version 1.2.0**
+
+- Add More structures.
+- More configuration.
+
+**Version 1.1**
 
 - Adding plants to the fireproof list, such as sapling, grass, berrybush,etc. The function is turned off by default.
 	> Attention: there is a bug that the ice flingomatic will keep drop the ice ball to the plants if you turn this function on. I am searching for a solution now.
