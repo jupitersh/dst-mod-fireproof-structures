@@ -12,6 +12,10 @@ It's better if you combine the mod [Invincible Structures](https://steamcommunit
 
 ## Changelog
 
+**Version 1.2.2**
+
+- Fixed the bug that structures could be ignited by nearby fire.
+
 **Version 1.2.1**
 
 - Fixed the bug of version 1.1

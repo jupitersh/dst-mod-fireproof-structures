@@ -130,19 +130,13 @@ end
 
 --主函数
 
-for k, v in pairs(fireproof_list) do    
+for k, v in pairs(fireproof_list) do
     AddPrefabPostInit(v, function(inst)
-        --Remove Burnt Structures
-        inst:DoTaskInTime(0, function(inst)
-            if inst:HasTag("burnt") then 
-                inst:Remove() 
-            end
-        end)
-        --Make things unburnable
-        inst:DoTaskInTime(1, function(inst)
-            if inst and inst.components.burnable then
-                inst.components.burnable.canlight = false
-            end
-        end)
+        if not inst:HasTag("fireimmune") then
+            inst:AddTag("fireimmune")
+        end
+        if inst and inst.components.burnable then
+            inst.components.burnable.canlight = false
+        end
     end)
 end
