@@ -138,10 +138,10 @@ for k, v in pairs(fireproof_list) do
                 inst:Remove() 
             end
         end)
-        --Remove the Component of Burnable
+        --Make things unburnable
         inst:DoTaskInTime(1, function(inst)
             if inst and inst.components.burnable then
-                inst.components.burnable = nil
+                inst.components.burnable.canlight = false
             end
         end)
     end)

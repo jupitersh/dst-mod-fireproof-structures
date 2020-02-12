@@ -12,6 +12,11 @@ It's better if you combine the mod [Invincible Structures](https://steamcommunit
 
 ## Changelog
 
+**Version 1.2.1**
+
+- Fixed the bug of version 1.1
+- Fixed the that players were not able to steer the wheel and game crashed when the carrats were put into the gyms.
+
 **Version 1.2.0**
 
 - Add More structures.

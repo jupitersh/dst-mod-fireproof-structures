@@ -7,7 +7,7 @@ author = "辣椒小皇纸"
 icon_atlas = "modicon.xml"
 icon = "modicon.tex"
 
-version = "1.2.0"
+version = "1.2.1"
 
 forumthread = ""
 
